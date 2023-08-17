@@ -41,7 +41,7 @@ const customizedTheme = createTheme({
 const defaultTheme = createTheme();
 
 export default function SignUp() {
-  const navigate =useNavigate()
+  const navigate = useNavigate()
     const [fulldata,setfulldata] = useState({
         username:"",
         email:"",
@@ -127,7 +127,7 @@ export default function SignUp() {
               type="submit"
               fullWidth
               variant="contained"
-             onClick={()=>{navigate("/login")}}
+             onClick={()=>{ navigate("/login")}}
               sx={{ mt: 3, mb: 2 ,backgroundColor:"#011126" ,onmouseover }}
             >
               Sign Up

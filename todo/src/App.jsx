@@ -14,10 +14,11 @@ function App() {
     <BrowserRouter>
     <div className='app-container'>
     <Routes>
+       <Route path='/' element={<Home/>}/>  
        <Route path='/signup' element={<SignUp/>}/>
        <Route path='/TodoWrapper' element={<TodoWrapper />}/>
        <Route path='/login' element={<SignIn/>}/>
-       <Route path='/' element={<Home/>}/>  
+       
        <Route path='/update' element={<Update/>}/>
 
     </Routes>

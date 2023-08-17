@@ -6,7 +6,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 function TodoWrapper() {
   const navigate =useNavigate()
   const location=useLocation ()
- const [data,setdata] =useState([{task:"hello"},{task:"hello"},{task:"hello"}])
+ const [data,setdata] =useState([])
  const[inputdata,setinputdata]=useState("")
  const[trigger,settrigger]=useState(false)
  const addtask =()=>{
